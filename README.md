@@ -1,19 +1,19 @@
-# 🚆 MBTA Express Service Optimization: Revolutionizing Commuter Rail for Greater Boston
+#  MBTA Express Service Optimization: Revolutionizing Commuter Rail for Greater Boston
 
-📍 **Region:** Greater Boston  
-📊 **Tools Used:** Python (PuLP), Monte Carlo Simulation, Tableau, Jupyter, Excel  
-🏫 **Affiliation:** Northeastern University | Spring 2025  
-🧠 **Focus:** Transportation Optimization · Integer Programming · Revenue Forecasting · Simulation
+ **Region:** Greater Boston  
+ **Tools Used:** Python (PuLP), Monte Carlo Simulation, Tableau, Jupyter, Excel  
+ **Affiliation:** Northeastern University | Spring 2025  
+ **Focus:** Transportation Optimization · Integer Programming · Revenue Forecasting · Simulation
 
 ---
 
-## 🧠 Project Overview
+##  Project Overview
 
 This project proposes a data-driven express service model for the MBTA commuter rail that saves time, boosts ridership, and increases revenue—**without any infrastructure investment**. Our optimization model strategically identifies low-ridership stations to skip while preserving service equity, accessibility, and high-demand routes.
 
 ---
 
-## 💡 Key Questions Addressed
+##  Key Questions Addressed
 
 - How can we reduce travel time on commuter rail lines without disrupting major stations?
 - What stations should be skipped to maximize overall passenger time saved?
@@ -22,9 +22,9 @@ This project proposes a data-driven express service model for the MBTA commuter 
 
 ---
 
-## 🧮 Methodology
+##  Methodology
 
-### 📐 Optimization Model
+###  Optimization Model
 
 - **Objective:** Maximize total passenger time saved  
 - **Constraints:**  
@@ -34,7 +34,7 @@ This project proposes a data-driven express service model for the MBTA commuter 
   - Protect high-ridership stops  
 - **Tools:** Python, PuLP (Integer Programming)
 
-### 📊 Simulation & Forecasting
+###  Simulation & Forecasting
 
 - **Monte Carlo Simulation:** 1,000 runs tested sensitivity of time, value, and equity assumptions  
 - **Ridership Elasticity:** Applied 7% increase in ridership for every 10% time saved  
@@ -42,19 +42,19 @@ This project proposes a data-driven express service model for the MBTA commuter 
 
 ---
 
-## 📈 Key Visualizations
+##  Key Visualizations
 
-### ⏱ Percentage of Trip Time Saved
+###  Percentage of Trip Time Saved
 
 ![Time Saved Per Route](visualizations/Percentage_of_Time_saved.jpeg)
 
-### 💰 Benefit-to-Cost Ratio by Route
+###  Benefit-to-Cost Ratio by Route
 
 ![Benefit-Cost Ratio](visualizations/Benefit_to_cost_ratio.jpeg)
 
 ---
 
-## 🔑 Key Outcomes
+##  Key Outcomes
 
 | Metric                     | Result                            |
 |---------------------------|-----------------------------------|
@@ -67,12 +67,12 @@ This project proposes a data-driven express service model for the MBTA commuter 
 
 ---
 
-## 📍 Case Study: Greenbush Line
+##  Case Study: Greenbush Line
 
-- 🚉 **Stations Skipped:** Nantasket Junction, Weymouth Landing, Quincy Center  
-- ⏱ **Time Saved:** 7.5 minutes per trip (12.0%)  
-- 👥 **Riders Benefiting per Train:** 97  
-- 📊 **BCR:** 3.86 : 1  
-- 💡 **Student Impact:** Daily commuters save 60–120 hours/year (e.g., Northeastern grad students)
+-  **Stations Skipped:** Nantasket Junction, Weymouth Landing, Quincy Center  
+-  **Time Saved:** 7.5 minutes per trip (12.0%)  
+-  **Riders Benefiting per Train:** 97  
+-  **BCR:** 3.86 : 1  
+-  **Student Impact:** Daily commuters save 60–120 hours/year (e.g., Northeastern grad students)
 
 ---
